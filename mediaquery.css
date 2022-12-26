@@ -1,0 +1,16 @@
+@media only screen and (min-width: 768px) {
+    .contact {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .contact-info, form {
+        flex-basis: 50%;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
